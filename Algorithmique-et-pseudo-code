@@ -6,14 +6,10 @@ nombre_bonbon <- 0
 
 TEST <- argent > 0 et prix_unitaire > 0
 
-Debut boucle
-    Si TEST vrai:
-        Tant que argent supérieur ou égale à prix_unitaire:
-            argent = argent - prix_unitaire
-            nombre_bonbon = nombre_bonbon + 1
-    Sinon
-        fin boucle
-Fin boucle
+    Tant que argent supérieur ou égale à prix_unitaire:
+    argent = argent - prix_unitaire
+    nombre_bonbon = nombre_bonbon + 1
+    fin tan que
 
 retourner (nombre_bonbon)
 
