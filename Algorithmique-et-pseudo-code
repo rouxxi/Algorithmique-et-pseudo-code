@@ -4,7 +4,7 @@ argent <- lire_un_entier()
 prix_unitaire <- lire_un_entier()
 nombre_bonbon <- 0
 
-TEST <- argent > 0 et prix_unitaire > 0
+TEST <- argent > 0 et/ou prix_unitaire > 0
 
 Si TEST vrai:
     Tant que argent supérieur ou égale à prix_unitaire:
